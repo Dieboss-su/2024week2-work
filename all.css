@@ -1,0 +1,177 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+*,*::before,*::after{box-sizing: border-box;}
+body{
+    font-family:"Bruno Ace SC",sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.mr20{
+    margin-right: 20px;
+}
+.mr24{
+    margin-right: 24px;
+}
+.mb24{
+    margin-bottom: 24px;
+}
+.mb36{
+    margin-bottom: 36px;
+}
+.fz16{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.fz64{
+    font-size: 64px;
+    line-height: 1.5;
+}
+.fz20{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.fz24{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.fz128{
+    font-size: 128px;
+    line-height: 1.5;
+}
+.menu{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #D1D1D1;
+}
+.menu a:hover{
+    background: gray;
+}
+.header p{
+    color: #FFFFFF;
+}
+.header h1{
+    color: #00FFA3;
+    text-align: right;
+}
+.header .word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lg-card{
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 4px;
+}
+.word .button{
+    width: 185px;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 12px;
+}
+.img-text{
+    justify-content: center;
+}
+.button:hover{
+    background-color: gray;
+    .img-text  a{color: #FFFFFF;}
+    .img-text img{
+        content: url(/img/arrow_outward-white.png);
+    }
+}
+.introduction h2{
+    color: #FFFFFF;
+}
+.introduction p{
+    color: #FFFFFF;
+}
+.section{
+    padding-top: 160px;
+    padding-bottom: 318px;
+    flex-direction: column;
+    width: 526px;
+    align-items: center;
+}
+.section .img{
+    width: 526px;
+    text-align: left;
+}
+.lg-img{
+    margin:auto 0;
+}
+.left-card{
+    width: 636px;
+    flex-wrap: wrap;
+    margin: auto 0;
+    margin-right: 134px;
+}
+.left-card .card{
+    width: 306px;
+}
+.about .content{
+    width: 526px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.link h3{
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+.link .word{
+    margin-right: 113px;
+    width: 657px;
+    align-items: center;
+}
+.icon{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.icon a:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+}
+.project h2{
+    text-align: right;
+    padding-top: 160px;
+    margin-bottom: 16px;
+}
+.banner{
+    padding-bottom: 160px;
+}
+.project .content{
+    flex-direction: column;
+}
+.content .card{
+    width: 856px;
+    margin-bottom: 28px;
+}
+.content .img{
+    width: 856px;
+}
+.footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
