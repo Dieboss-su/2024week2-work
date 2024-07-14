@@ -97,7 +97,7 @@ img{
     background-color: gray;
     .img-text  a{color: #FFFFFF;}
     .img-text img{
-        content: url(/img/arrow_outward-white.png);
+        content: url(img/arrow_outward-white.png);
     }
 }
 .introduction h2{
