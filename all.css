@@ -127,12 +127,9 @@ img{
     margin-right: 134px;
 }
 .left-card .card{
-    display: flex;
-    flex-direction: column;
     width: 306px;
-    height: 148px;
     border: 1px solid #E3E3E3;
-    padding: 16px;
+    padding: 19px;
 }
 .about .content{
     width: 526px;
