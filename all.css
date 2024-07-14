@@ -128,6 +128,7 @@ img{
 }
 .left-card .card{
     width: 306px;
+    border: 1px solid #E3E3E3;
 }
 .about .content{
     width: 526px;
